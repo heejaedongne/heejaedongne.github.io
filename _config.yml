@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Jaedong<br>& Heejae Wedding Invitation' 
+tagline:          'A Jekyll theme'
+description:      '재동과 희재,<br>8년을 만나 이제 부부가 됩니다. 부디 참석하시어 축복해주시면 감사하겠습니다.<br>@11월 4일 2PM 려움웨딩'
+url:              /
+baseurl:          https://heejaedongne.github.io/
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         1
+paginate_path:    "Toon/page:num"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/heejaedongne/heejaedongne.github.io
+
+plugins:
+    - jekyll-paginate
+    - jekyll-gist
+    - redcarpet

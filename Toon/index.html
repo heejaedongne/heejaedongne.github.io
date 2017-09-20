@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}Toon/page{{paginator.next_page}}">이전화</a>
+    
+  {% else %}
+    <span class="pagination-item older">이전화</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}Toon/">다음화</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}Toon/page{{paginator.previous_page}}">다음화</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">다음화</span>
+  {% endif %}
+</div>
