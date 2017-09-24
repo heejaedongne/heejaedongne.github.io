@@ -29,12 +29,19 @@ title: 오시는 길
 }
 #theImage {
     width:100%;
-    background:url("image1.png") no-repeat;
+    background:url("https://heejaedongne.github.io/assets/Map/staticmap.png") no-repeat;
 }
 </style>
-<img class='photo3' src='https://heejaedongne.github.io/assets/Map/staticmap.png' width=100%></img>
 
-<div id='#theImage' class='photo3'></div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        $("#theImage").append("<img class=photo3 src=https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=12&w=1000&h=1000&baselayer=default&markers=127.076598,37.546912>");
+    });
+</script>
+
+<div id='theImage' class='photo3'></div>
 
 지도를 누르시면 네이버지도로 연결됩니다
 </a>
