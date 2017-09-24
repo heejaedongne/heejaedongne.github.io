@@ -10,7 +10,7 @@ title:            'Jaedong<br>& Heejae Wedding Invitation'
 tagline:          'A Jekyll theme'
 description:      '재동과 희재,<br>8년을 만나 이제 부부가 됩니다. 부디 참석하시어 축복해주시면 감사하겠습니다.<br>@11월 4일 2PM 려움웨딩'
 url:              https://heejaedongne.github.io/
-baseurl:          https://heejaedongne.github.io/
+baseurl:          /
 
 author:
   name:           'Mark Otto'
