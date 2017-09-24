@@ -8,7 +8,7 @@ title: 오시는 길
 	<img src="{{ site.url }}/assets/Invitation/Invitation_2_800.jpg">
 </center>
 -->
-
+{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 <style>
 .photo1 {
     width: 100px; height: 100px;
