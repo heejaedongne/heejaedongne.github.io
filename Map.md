@@ -36,8 +36,8 @@ title: 오시는 길
 <center>
 <a href="http://naver.me/xtOz4HL7">
 <img class='photo3' src="https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=11&w=400&h=400&baselayer=default&markers=127.076598,37.546912" width=100%>
-</a>
 지도를 누르시면 네이버지도로 연결됩니다
+</a>
 </center>
 
 <h3>
