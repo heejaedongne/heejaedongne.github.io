@@ -2,35 +2,9 @@
 layout: page
 title: 오시는 길
 ---
-<style>
-.photo1 {
-    width: 100px; height: 100px;
-    border-radius: 50%;
-}
-.photo2 {
-    width: 100px; height: 100px;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 50%;
-}
-.photo3 {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.photo4 {
-    width: 100px; height: 100px;
-    object-fit: cover;
-    object-position: bottom;
-    border-radius: 50%;
-}
-</style>
 
 <center>
 <a href="http://naver.me/xtOz4HL7">
-<figure>
-<img class='photo3' src='{{ site.url }}/assets/Map/staticmap.png' width=100%></img>
-</figure>
 {% include Map.html %}
 지도를 누르시면 네이버지도로 연결됩니다
 </a>
