@@ -31,6 +31,7 @@ title: 오시는 길
 <figure>
 <img class='photo3' src='{{ site.url }}/assets/Map/staticmap.png' width=100%></img>
 </figure>
+{% include Map.html %}
 지도를 누르시면 네이버지도로 연결됩니다
 </a>
 </center>
