@@ -5,7 +5,37 @@ title: 오시는 길
 
 <center>
 <a href="http://naver.me/xtOz4HL7">
-{% include Map.html %}
+<style>
+.photo1 {
+    width: 100px; height: 100px;
+    border-radius: 50%;
+}
+.photo2 {
+    width: 100px; height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.photo3 {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.photo4 {
+    width: 100px; height: 100px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+}
+#theImage {
+    width:100%;
+    background:url("image1.png") no-repeat;
+}
+</style>
+<img class='photo3' src='https://heejaedongne.github.io/assets/Map/staticmap.png' width=100%></img>
+
+<div id='#theImage' class='photo3'></div>
+
 지도를 누르시면 네이버지도로 연결됩니다
 </a>
 </center>
