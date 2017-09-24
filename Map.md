@@ -9,7 +9,8 @@ title: 오시는 길
 </center>
 -->
 {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-<br>
+<br>-----------------------------<br>
+오시는길
 <style>
 .photo1 {
     width: 100px; height: 100px;
