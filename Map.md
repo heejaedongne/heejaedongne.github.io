@@ -27,10 +27,6 @@ title: 오시는 길
     object-position: bottom;
     border-radius: 50%;
 }
-#theImage {
-    width:100%;
-    background:url("https://heejaedongne.github.io/assets/Map/staticmap.png") no-repeat;
-}
 </style>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
