@@ -8,8 +8,6 @@ title: 오시는 길
 	<img src="{{ site.url }}/assets/Invitation/Invitation_2_800.jpg">
 </center>
 -->
-<br>-----------------------------<br>
-오시는길
 <style>
 .photo1 {
     width: 100px; height: 100px;
@@ -35,9 +33,11 @@ title: 오시는 길
 </style>
 
 <center>
+<a href="http://naver.me/xt0z4HL7">
 {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 <img class='photo3' src=https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=11&w=400&h=400&baselayer=default&markers=127.076598,37.546912 width=100%></img>
 지도를 누르시면 네이버지도로 연결됩니다
+</a>
 </center>
 
 <h3>
