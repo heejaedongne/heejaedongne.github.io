@@ -1,0 +1,1 @@
+https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=12&w=1000&h=1000&baselayer=default&markers=127.076598,37.546912
