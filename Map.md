@@ -36,8 +36,11 @@ title: 오시는 길
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script>
     // html dom 이 다 로딩된 후 실행된다.
+    //$(document).ready(function(){
+    //    $("#theImage").append("<img class=photo3 src=https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=12&w=1000&h=1000&baselayer=default&markers=127.076598,37.546912>");
+    //});
     $(document).ready(function(){
-        $("#theImage").append("<img class=photo3 src=https://openapi.naver.com/v1/map/staticmap.bin?clientId=SIgPdpt_Uct5elBD8dLz&url=https://heejaedongne.github.io&crs=EPSG:4326&center=127.076598,37.546912&level=12&w=1000&h=1000&baselayer=default&markers=127.076598,37.546912>");
+        $("#theImage").append("<img class=photo3 src=https://heejaedongne.github.io/assets/Map/staticmap.png>");
     });
 </script>
 
