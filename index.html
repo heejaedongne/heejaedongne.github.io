@@ -24,6 +24,7 @@ title: Home
 
 <script>
     // html dom 이 다 로딩된 후 실행된다.
+    var state = 0;
     $(document).ready(function(){
     	$("#Gallary").hide();
         // memu 클래스 바로 하위에 있는 a 태그를 클릭했을때
@@ -32,6 +33,16 @@ title: Home
             // a 옆의 태그중 ul 태그에 hide 클래스 태그를 넣던지 빼던지 한다.
             console.log("Hide");
             $("#Gallary").toggle("fast");
+            if(state == 0)
+            {
+            	state = 1;
+            	$("#openbutton").attr('src','{{ site.url }}/assets/Button/Close.png');
+            }
+            else
+            {
+            	state = 0;
+            	$("#openbutton").attr('src','{{ site.url }}/assets/Button/Open.png');
+            }
         });
     });
 </script>
