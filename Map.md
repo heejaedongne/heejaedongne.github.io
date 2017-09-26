@@ -37,6 +37,11 @@ title: 오시는 길
     //});
     $(document).ready(function(){
         $("#theImage").append("<img class=photo3 src=https://heejaedongne.github.io/assets/Map/staticmap.png>");
+        function fnMove(){
+          var offset = $(".page-title").offset();
+          $('html, body').animate({scrollTop : offset.top}, 1500, 'swing');
+        }
+        fnMove();
     });
 </script>
 
